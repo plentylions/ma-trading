@@ -1,0 +1,27 @@
+{
+    "version"           :   "0.0.1",
+    "license"           :   "AGPL-3.0",
+    "name"              :   "MaTrading",
+    "marketplaceName"   :   {"de":"MaTrading","en":"MaTrading"},
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "authorIcon"        :   "icon_author_xs.png",
+    "email"             :   "info@plentylions.de",
+    "description"       :   "A MaTrading theme for Ceres.",
+    "shortDescription"  :   { "de": "Ein MaTrading-Theme für Ceres.", "en": "A MaTrading theme for Ceres." },
+    "namespace"         :   "MaTrading",
+    "author"            :   "Plenty Lions GmbH",
+    "keywords"          :   ["plentymarkets", "plugins", "layout", "theme", "ceres"],
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "require"           :   ["Ceres"],
+    "serviceProvider"   :   "MaTrading\\Providers\\MaTradingServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"MaTrading\\Containers\\MaTradingContainer",
+            "name"          :"Stylesheet",
+            "description"   :"Add changes to the CSS file"
+        }
+    ]
+}
